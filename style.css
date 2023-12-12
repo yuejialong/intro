@@ -1,0 +1,87 @@
+body {
+    background-color: #f0f0f0; /* 背景色をグレーに */
+    padding: 20px; /* 要素内の余白を 20px に */
+    font-size: 14px; /* 文字の大きさを 14px に */
+    color: #2ab4eb; /* 文字の色を、濃いめのグレーに */
+}
+.container {
+    max-width: 650px; /* 最大幅 */
+    /* margin: 0 auto; */ /* 左右の余白を auto にして、左右中央揃えに */
+    box-shadow: 0 0 20px rgba(0, 0, 0, .9); /* 影をつける */
+    background-color: #fff; /* 背景色を白に */
+    border: 1px solid #888;
+    padding: 0;
+}
+header {
+    background-color: #33f743; /* 背景色を茶色に */
+    padding: 10px; /* 要素内余白を 10px に */
+    color: #fff; /* 文字色を白に */
+}
+header h1 {
+    margin: 0; /* 余白をなくす */
+    font-size: 24px; /* 文字の大きさを 24px に */
+    font-weight: normal; /* 文字の太さを太くしない */
+    text-align: center; /* テキストを中央揃えに */
+}
+/**************
+.preface p {
+    margin-top: 20px;
+}
+***************/
+.preface {
+    text-align: center; /* テキストを中央揃えに */
+    font-size: 16px; /* 文字の大きさを 24px に */
+    margin: 5px;
+}
+#showClock {
+    text-align: center;
+    font-size: 11px;
+    color: #888;
+}
+.motto {
+    margin-top: 15px;
+    padding: 0;
+}
+.motto span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.information h3 {
+    font-size: 16px;
+    margin: 6px 0 3px 0;
+    padding: 5px 10px; /* 要素内の余白を上下5px、左右10px に */
+    background-color: #E6E4DD; /* 背景色を薄い茶色に */
+    border: 1px solid #fc2f2f;
+}
+.information ul {
+    list-style-type: disc;
+    margin: 0; /* 余白をなくす */
+}
+.information li {
+    padding: 0 10px; /* 要素内余白を上下0px、左右10px に */
+}
+.information li span {
+    text-decoration: line-through;
+}
+/*
+hr {
+    border-width: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+*/
+.reference {
+    margin: 8px 0;
+    font-size: 12px;
+}
+footer {
+    /* padding: 6px; */
+}
+footer h2 {
+    background-color: #33f743; /* 背景色を茶色に */
+    padding: 10px; /* 要素内余白を 10px に */
+    color: #fff; /* 文字色を白に */    
+    text-align: center; /* テキストを中央揃えに */
+    font-size: 16px;
+    margin: 0;
+}
